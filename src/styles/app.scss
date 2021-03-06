@@ -10,5 +10,16 @@ h3 {
     color: rgba(44, 44, 44, 0.767)
 }
 
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h3,
+h4 {
+    font-weight: 400;
+    color: rgba(92, 88, 88, 0.822);
+}
+
 @import "./song";
 @import "./player";
+@import "./library";
