@@ -43,6 +43,12 @@ input[type="range"]::-webkit-slider-thumb {
     width: 16px;
 }
 
+input[type="range"]::-moz-slider-thumb {
+    -webkit-appearance: none;
+    background: transparent;
+    border: none;
+}
+
 .track {
     background: lightcyan;
     width: 100%;
